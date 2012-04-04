@@ -44,11 +44,10 @@ int main()
 		gettimeofday(&tim, NULL);
 		t2 = tim.tv_sec + (tim.tv_usec/1000000.0);
 		elapsed_seconds = (int)(t2 - t1);
-		printf("t1: %f, t2: %f, elapsed_time:%d\n", t1, t2, elapsed_seconds);
 		if(elapsed_seconds > keepalive)
 		{
-			printf("Timeout!\n");
-			// Keep alive
+			printf("Timeout! Elapsed time: %d\n", elapsed_seconds);
+
 			gettimeofday(&tim, NULL);
 			t1 = tim.tv_sec + (tim.tv_usec/1000000.0);
 		}

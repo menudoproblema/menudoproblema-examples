@@ -1,6 +1,6 @@
 # Description
 
-This example prints ``Timeout!`` elapsed 5 seconds
+This example prints ``Timeout! Elpased time: #s`` every 5 seconds
 
 ## When to use
 
@@ -16,11 +16,14 @@ code can be used when you need to perform a task after 5 seconds or more.
 
 # Example
 
-    $ ./timer1
-    t1: 1333525126.992194, t2: 1333525126.992194, elapsed_time:0
-    Do somenthing
-    t1: 1333525126.992194, t2: 1333525129.992326, elapsed_time:3
-    Do somenthing
-    t1: 1333525126.992194, t2: 1333525132.992430, elapsed_time:6
-    Timeout!
-    Do somenthing
+    $ ./timer1 
+	Do somenthing
+	Do somenthing
+	Timeout! Elapsed time: 6
+	Do somenthing
+	Do somenthing
+	Timeout! Elapsed time: 6
+	Do somenthing
+	Do somenthing
+	Timeout! Elapsed time: 6
+
