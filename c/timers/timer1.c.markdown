@@ -1,6 +1,6 @@
 # Description
 
-This example prints ``Timeout! Elpased time: #s`` every 5 seconds
+This example prints ``Timeout! Elpased time: #s`` elapsed 5 seconds or more.
 
 ## When to use
 
