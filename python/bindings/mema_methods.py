@@ -1,8 +1,8 @@
-import mema_functions
+import mema_methods
 
-mema_functions.hello()
-mema_functions.hello('Vicente')
+mema_methods.hello()
+mema_methods.hello('Vicente')
 
-from mema_functions import add
+from mema_methods import add
 
 print(add(2, 3))

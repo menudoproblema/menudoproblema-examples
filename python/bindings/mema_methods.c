@@ -64,7 +64,7 @@ PyMethodDef methods[] = {
 	{NULL},
 };
 
-void initmema_functions()
+void initmema_methods()
 {
-	(void)Py_InitModule("mema_functions", methods);
+	(void)Py_InitModule("mema_methods", methods);
 }
