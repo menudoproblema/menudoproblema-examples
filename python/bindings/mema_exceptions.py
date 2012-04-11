@@ -17,6 +17,6 @@ mema_exceptions.simple_exception(2)
 
 
 try:
-    mema_exceptions.bad_example()
+    mema_exceptions.bad_example('string')
 except SystemError:
     print('``bad_example``: SystemError')
